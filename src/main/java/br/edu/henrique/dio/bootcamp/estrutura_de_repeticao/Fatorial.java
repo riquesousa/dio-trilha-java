@@ -14,8 +14,14 @@ public class Fatorial {
         System.out.println("Escolha um número para exibir o Fatorial: ");
         int numFatorial = scan.nextInt();
 
-        
+        int multiplicacao = 1;
 
+        System.out.println(numFatorial +"! = ");
+        for(int i = numFatorial; i >= 1; i--){
+
+            multiplicacao = multiplicacao * i;
+        }
+        System.out.println(multiplicacao);
 
     }
 }
