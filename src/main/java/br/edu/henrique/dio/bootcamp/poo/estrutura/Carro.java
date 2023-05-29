@@ -1,4 +1,4 @@
-package br.edu.henrique.dio.bootcamp.poo;
+package br.edu.henrique.dio.bootcamp.poo.estrutura;
 
 public class Carro {
 
